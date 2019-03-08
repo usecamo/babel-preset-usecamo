@@ -1,0 +1,48 @@
+{
+  "name": "babel-preset-usecamo",
+  "description": "Babel shareable preset by Camo.",
+  "license": "MIT",
+  "author": "Jason Nam <contact@jasonnam.com> (https://jasonnam.com)",
+  "homepage": "https://github.com/usecamo/babel-preset-usecamo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usecamo/babel-preset-usecamo"
+  },
+  "bugs": {
+    "url": "https://github.com/usecamo/babel-preset-usecamo/issues"
+  },
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.3.4"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.3.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "jest": "^24.3.1"
+  },
+  "keywords": [
+    "babel",
+    "babel-preset",
+    "camo",
+    "config",
+    "transform"
+  ],
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "babel": {
+    "presets": [
+      "./"
+    ]
+  }
+}
