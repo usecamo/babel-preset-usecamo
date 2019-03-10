@@ -11,12 +11,13 @@
   "bugs": {
     "url": "https://github.com/usecamo/babel-preset-usecamo/issues"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "scripts": {
+    "lint": "eslint __tests__",
     "test": "jest",
     "test:watch": "jest --watch"
   },
@@ -28,6 +29,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
+    "eslint": "^5.15.1",
+    "eslint-config-camo": "^0.2.1",
+    "eslint-plugin-eslint-comments": "^3.1.1",
+    "eslint-plugin-jest": "^22.3.0",
     "jest": "^24.3.1"
   },
   "keywords": [
