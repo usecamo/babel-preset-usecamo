@@ -13,8 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Lint test code.
 
-## 0.1.0 - 2019-03-08
+## [0.1.0] - 2019-03-08
 ### Added
 - Babel shareable preset.
 
+[0.1.2]: https://github.com/usecamo/babel-preset-usecamo/compare/0.1.1...0.1.2
 [0.1.1]: https://github.com/usecamo/babel-preset-usecamo/compare/0.1.0...0.1.1
+[0.1.0]: https://github.com/usecamo/babel-preset-usecamo/releases/tag/0.1.0
