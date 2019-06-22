@@ -26,6 +26,7 @@
     "@babel/core": "^7.3.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.3.4",
     "jest": "^24.3.1"
   },
   "keywords": [
